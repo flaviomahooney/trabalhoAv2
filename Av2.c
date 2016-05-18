@@ -40,11 +40,10 @@ int main()
           }
         } 
     }
-    //Legenda//
     printf("\n\nLista da av1\n");
     printf("----------------\n");
     printf("Nome do aluno\tav1\n");
-    //tabula os nomes e as notas//
+    //formação das tabelas//
     for(x=0;x<=29;x++)
     {
         printf("%s\t\t%.2f\n", nome[x], nota[x]);
